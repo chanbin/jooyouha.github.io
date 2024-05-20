@@ -1,3 +1,5 @@
 _site/
 .sass-cache/
 .jekyll-metadata
+openssl enc -aes-256-ofb -in 'a.txt' -out 'test' -k '=,!*7d:enR!_86na!!J-s*q=bmv>gL92~oZm' -pbkdf2
+openssl enc -aes-256-ofb -d -in 'test' -k '=,!*7d:enR!_86na!!J-s*q=bmv>gL92~oZm' -pbkdf2
